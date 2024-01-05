@@ -18,7 +18,7 @@ ul {
 
 nav
 {
-    margin: 50px 15px;
+    margin: 50px;
     font-size: 40px;
 }
 footer {
@@ -30,8 +30,6 @@ footer {
 .image-container img {
     width: 100%;
     margin: auto; 
-    -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%); /* Ajustez le dégradé selon vos besoins */
-            mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%);   
 }
 
 .titre-texte {
@@ -72,3 +70,6 @@ footer {
     margin: 50px;
 }
 
+h2 {
+    margin: 50px;
+}
