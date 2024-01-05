@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a
+{
+    text-decoration: none; 
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+nav
+{
+    margin: 50px 15px;
+    font-size: 40px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 50px 15px;
+}
+
+.image-container img {
+    width: 100%;
+    margin: auto; 
+    -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%); /* Ajustez le dégradé selon vos besoins */
+            mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%);   
+}
+
+.titre-texte {
+    padding-bottom: 10px;
+}
+
+.overlay-text {
+    margin: 50px;
+}
+
+.bloc-planetes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .planetes {
+    flex: 0 0 calc(30% - 5px); 
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .planetes img {
+    width: 90%;
+    height: auto;
+  }
+  
+#planetes-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#soleil-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
